@@ -3,7 +3,7 @@ from flask import Flask, request, make_response, redirect, abort
 app = Flask(__name__)
 
 @app.route("/")
-def home():
+def main():
     return
     """
     <h1>Avaliação contínua: Aula 030</h1>
